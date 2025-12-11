@@ -16,5 +16,5 @@ npm run dev
 
 | Feature | Fecha creacion | Creado poy |
 |---------|----------------|------------|
-| Login | 16/10/2025 |Frank Chiara |
-| Registro | 17/10/2025 | GRUPO 7|
+| Login | 10/12/2025 |Frank Chiara |
+| Registro | 10/12/2025 | GRUPO 7|
