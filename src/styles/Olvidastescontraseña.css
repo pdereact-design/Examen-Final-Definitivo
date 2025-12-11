@@ -1,0 +1,27 @@
+.form-body1 {
+    display: grid;
+    align-items: center;
+}
+.form1 {
+    height: 55px;
+    border-radius: 16px;
+    font-family: "Itim", cursive;
+    font-size: 24px;
+    width: 365px;
+}
+.accion-register1{
+    background-color: #FFFFFF;
+    height: 500px;
+    border-radius: 60px 60px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 34px;
+    padding-top: 32px;
+    margin-top: 19px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+

@@ -1,0 +1,141 @@
+.edit-screen {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+  font-family: "Itim", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.edit-screen .edit-form-wrapper {
+  width: 92%;
+  max-width: 420px;
+  margin: 18px auto 0 auto;
+  box-sizing: border-box;
+}
+
+.edit-top {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.edit-field-inline {
+  display: grid !important;
+  grid-template-columns: 130px 1fr !important;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.edit-inline-label {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  padding-left: 4px;
+  
+}
+
+.edit-input-small {
+  width: 100% !important;
+  
+  padding: 12px 15px !important;
+  background: #ffffff !important;
+  border: 1px solid #000000 !important;
+  border-radius: 18px !important;
+  font-size: 16px !important;
+  color: #333 !important;
+  outline: none !important;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.18) !important;
+}
+
+.edit-input-small:focus {
+  border-color: #54c45a !important;
+  box-shadow: 0 0 0 3px rgba(84,196,90,0.16) !important;
+}
+
+.edit-screen .edit-form {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.edit-screen .edit-label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-left: 6px;
+  
+}
+
+.edit-screen .edit-input {
+  width: 100%;
+  padding: 12px 15px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 18px;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+  box-sizing: border-box;
+  
+  
+}
+
+.edit-screen .edit-input:focus {
+  box-shadow: 0 0 0 3px rgba(84,196,90,0.12);
+  border-color: #54c45a;
+  
+}
+
+.edit-screen .edit-actions {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  
+  align-items: center;
+}
+
+.edit-screen .btn-save {
+  width: 70%;
+  max-width: 320px;
+  padding: 12px 18px;
+  background: #54c45a !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 0 rgba(0,0,0,0.06);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.edit-screen .btn-cancel {
+  width: 70%;
+  max-width: 320px;
+  padding: 12px 18px;
+  background: #e57a7a !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 0 rgba(0,0,0,0.04);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.edit-screen .btn-save:hover,
+.edit-screen .btn-cancel:hover {
+  opacity: 0.95;
+}
+
+body .edit-screen * {
+  box-sizing: border-box;
+}

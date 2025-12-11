@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 123,
+      "origin": [-76.996337, -12.106102],
+      "destination": [-77.022172, -12.097122],
+      "client": "Julio Tribiño",
+      "amount": "12.20",
+      "address": {
+        "origin": "Av. Jose Olaya 222, Barranco",
+        "destination": "Calle Ricando Angulo 2222, Miraflores"
+      },
+      "km": 2.2
+    },
+    {
+      "id": 321,
+      "origin": [-76.965325, -12.148851],
+      "destination": [-76.950498, -12.144739],
+      "client": "Rosa Melgar",
+      "amount": "8.20",
+      "address": {
+        "origin": "Av Mercedes 213, Surco",
+        "destination": "Calle Jorge ochoa 222, San Isidro"
+      },
+      "km": 3.2
+    }
+  ]
+}

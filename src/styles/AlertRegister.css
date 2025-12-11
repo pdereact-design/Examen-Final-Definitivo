@@ -1,0 +1,90 @@
+.alert-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  z-index: 1000 !important;
+  animation: fadeIn 0.3s ease-in-out forwards !important;
+}
+
+.alert-box {
+  background-color: #ffffff !important;
+  border: 2px solid #000 !important;
+  border-radius: 20px !important;
+  width: 85% !important;
+  max-width: 450px !important;
+  padding: 40px 50px !important;
+  text-align: center !important;
+  font-family: "Itim", cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  animation: scaleIn 0.35s ease-in-out forwards !important;
+}
+
+.alert-box p {
+  font-size: 20px !important;
+  margin-bottom: 25px !important;
+  color: #222 !important;
+}
+
+.alert-buttons {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 20px !important;
+}
+
+.btn-cancel,
+.btn-accept {
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 12px 28px !important;
+  font-size: 16px !important;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform-origin: center;
+}
+
+.btn-cancel {
+  background-color: #a2c1bc !important;
+  color: #000 !important;
+}
+
+.btn-accept {
+  background-color: #4d8074 !important;
+  color: #fff !important;
+}
+
+.btn-cancel:hover,
+.btn-accept:hover {
+  transform: scale(1.05) !important;
+}
+
+.btn-cancel:active,
+.btn-accept:active {
+  transform: scale(0.95) !important;
+}
+
+.btn-cancel:hover {
+  background-color: #b4d0cb !important;
+}
+
+.btn-accept:hover {
+  background-color: #5e998b !important;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

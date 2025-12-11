@@ -1,0 +1,104 @@
+
+.header-profile {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  align-items: start;
+  padding: 17px 16px;
+  color: #fff;
+  font-family: "Itim", cursive;
+}
+
+.home1-container {
+  min-height: 100vh;
+  background-color: #4d8074; 
+  font-family: "Itim", cursive;
+}
+
+
+.header-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 17px 16px;
+  color: #fff;
+  font-family: "Itim", cursive;
+}
+
+
+.card {
+  background-color: #fff;
+  margin: 15px 20px;
+  border: 2px solid #000;
+  padding: 20px;
+  box-shadow: 0px 0px 1px #000;
+}
+
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 22px;
+  margin-top: 1px;
+  -webkit-text-stroke: 0.2px #000;
+}
+
+
+.card_logo {
+  display: flex;
+
+  gap: 75px;
+}
+
+
+.icon {
+  transform: translateY(-10px);
+  width: 70px;
+  height: auto;
+  filter: brightness(0); 
+  
+}
+.icon2 {
+  width: 86px;
+  height: auto;
+  filter: brightness(0); 
+  
+}
+
+.number {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.progress-bar {
+  margin-top: 6px;
+  height: 8px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 120px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #000;
+}
+
+small {
+  display: block;
+  margin-top: 6px;
+  font-size: 17px;
+    -webkit-text-stroke: 0.2px #000;
+}
+
+
+.card_row {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+
+.big_numer {
+  font-size: 47px;
+  font-weight: bold;
+}

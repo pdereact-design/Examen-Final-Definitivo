@@ -1,0 +1,51 @@
+.alert-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.alert-card {
+  background: #fff;
+  padding: 52px 34px;
+  border-radius: 26px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 7px 18px rgba(0,0,0,0.20);
+  font-family: "Itim", cursive;
+}
+
+.alert-text {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.alert-actions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.alert-btn-cancel {
+  background: #e57a7a;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.alert-btn-accept {
+  background: #54c45a;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 17px;
+}

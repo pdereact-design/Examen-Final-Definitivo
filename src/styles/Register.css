@@ -1,0 +1,18 @@
+.form-body {
+    display: grid;
+    align-items: center;
+    gap: 14px;
+    margin: 23px 40px 40px 40px;
+}
+
+.accion-register{
+    background-color: #FFFFFF;
+    height: 180px;
+    border-radius: 60px 60px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 34px;
+    padding-top: 32px;
+}

@@ -1,0 +1,97 @@
+.historial-screen {
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.historial-screen .available-box {
+  background-color: white;
+  border-radius: 66px;
+  padding: 1px 75px;
+  border: 2px solid black;
+  font-family: "Itim", cursive;
+  font-size: 20px;
+}
+
+.historial-screen .historial-container {
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+  border: 2px solid #000;
+  padding: 19px 24px 25px 24px;
+  margin-top: 35px;
+  font-family: "Itim", cursive;
+}
+
+.historial-screen .historial-title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 35px;
+  margin-top: 1px;
+}
+
+.historial-screen .empty-history {
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+
+.historial-screen .historial-card {
+  background-color: #9ddfd2;
+  border-radius: 16px;
+  padding: 10px 14px;
+  margin-bottom: 15px;
+  font-family: "Itim", cursive;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.historial-screen .historial-card-left h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.historial-screen .historial-card-left p {
+  color: #5B5B5B;
+}
+
+.historial-screen .historial-card-right h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.historial-screen .historial-card-right p {
+  color: #5B5B5B;
+  text-align: right;
+}
+
+.historial-screen .record-view-history {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.historial-screen .profit-home-summary {
+  font-size: 64px;
+  margin-top: -20px;
+}
+
+.historial-screen .profit-home {
+  margin-top: -16px;
+}
+
+.historial-back {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: -1px;
+  margin-bottom: 5px;
+}
+
+.historial-back span {
+  font-size: 26px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Itim", cursive;
+}

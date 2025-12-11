@@ -1,0 +1,151 @@
+body {
+    background-color: #4C8479;
+    margin: 0px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.title-h1{
+    color: #C8A758;
+    font-family: "Itim", cursive;
+    font-size: 64px;
+    margin: 0px;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-family: "Itim", cursive;
+    color: #FFFFFF;
+}
+
+.inputs-form {
+    display: grid;
+    align-items: center;
+    gap: 14px;
+    margin: 40px;
+}
+
+input{
+    height: 55px;
+    border-radius: 16px;
+    padding-left: 15px;
+    font-family: "Itim", cursive;
+    font-size: 24px;
+}
+
+.accion-login{
+    background-color: #FFFFFF;
+    height: 300px;
+    border-radius: 60px 60px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.accion-login> span {
+    font-family: "Itim", cursive;
+    color:#636363;
+    font-size: 24px;
+    margin: 10px 0px;
+
+}
+
+.btn {
+    font-family: "Itim", cursive;
+    font-size: 24px;
+    border-radius: 16px;
+    width: 80vw; /* vw -> view width */
+    height: 55px;
+    border: none;
+}
+
+.btn-log {
+    background-color: #4C8479;
+    color: #FFFFFF;
+}
+
+.btn-create-account {
+    display: flex;
+    align-items: center;
+    background-color: #9CB9B3;
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.btn2 {
+    font-family: "Itim", cursive;
+    font-size: 24px;
+    border-radius: 16px;
+ 
+    width: 88vw;
+    height: 55px;
+    border: none;
+    
+}
+
+.btn-center2 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+.itim-regular2 {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.prf-olvidastes2 {
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.fs-242 {
+    font-size: 24px;
+}
+
+.bck-gris2 {
+    background-color: #9CB9B3;
+}
+
+.bck-vrd2 {
+    
+    background-color: #4C8479;
+}
+
+.color-black2 {
+    color: #000;
+}
+
+.color-white2 {
+    color: #FFFFFF;
+}
