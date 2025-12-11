@@ -1,4 +1,4 @@
-# DELIVERY APP REACT
+# DELIVERY APP REACT EXAMEN FINAL
 ## Instalación
 
 Utiliza la versionde [Node.js](https://nodejs.org/) mayor a la v22
@@ -16,5 +16,5 @@ npm run dev
 
 | Feature | Fecha creacion | Creado poy |
 |---------|----------------|------------|
-| Login | 16/10/2025 | Jhefferson|
-| Registro | 17/10/2025 | Jhefferson|
+| Login | 16/10/2025 |Frank Chiara |
+| Registro | 17/10/2025 | GRUPO 7|
