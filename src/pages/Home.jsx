@@ -14,13 +14,13 @@ export const Home = () => {
           <img src={zapatillaIcon} className="icon" />
 
           <div className='card-text'>
-            <span className='number'>72 km</span>
+            <span className='number'>72/2000km</span>
 
             <div className="progress-bar">
               <div className="progress-fill" style={{ width: "40%" }}></div>
             </div>
 
-            <small>Se ha recorrido</small>
+            <small>recorridos</small>
           </div>
         </div>
       </div>
